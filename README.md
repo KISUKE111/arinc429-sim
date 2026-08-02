@@ -93,4 +93,4 @@ print(altitude_ft)  # 35000.0
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+Copyright (c) 2026 Mohammed amine mohammadi. All Rights Reserved.
