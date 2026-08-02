@@ -10,7 +10,7 @@ labels, parity) rather than real electrical/timing behavior. It's aimed
 at students, hobbyists, and engineers who are new to avionics data buses
 and want to learn by reading and running real code.
 
-> Copyright (c) 2026 Mohammed [Your Last Name]. All Rights Reserved.
+> Copyright (c) 2026 Mohammed amine mohammadi. All Rights Reserved.
 > See [LICENSE](LICENSE) for terms.
 
 ---
