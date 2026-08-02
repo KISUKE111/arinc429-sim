@@ -85,6 +85,8 @@ Every ARINC 429 word is exactly 32 bits, transmitted bit 1 first
 | 30–31 | SSM    | 2     | Sign/Status Matrix — validity/sign/test flag (see below). |
 | 32    | Parity | 1     | A single **odd parity** bit over bits 1–31, for basic error detection. |
 
+![ARINC 429 32-bit word layout, showing Label, SDI, Data, SSM, and Parity fields sized proportionally to their bit widths](docs/images/word_layout.svg)
+
 ### Data encoding types
 
 This project currently implements **BNR (Binary)** encoding, which is
