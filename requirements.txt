@@ -1,0 +1,2 @@
+# No external dependencies — this project uses only the Python standard library.
+# This file is kept for convention / future extensions (e.g. a GUI or CLI parser).
