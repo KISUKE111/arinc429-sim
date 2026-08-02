@@ -27,7 +27,6 @@ and want to learn by reading and running real code.
 - [How the simulator maps to real hardware](#how-the-simulator-maps-to-real-hardware)
 - [Learning path](#learning-path-suggested-order)
 - [Frequently asked questions](#frequently-asked-questions)
-- [Ideas for extending this project](#ideas-for-extending-this-project)
 - [References](#references)
 - [License](#license)
 
