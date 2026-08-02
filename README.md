@@ -85,7 +85,7 @@ Every ARINC 429 word is exactly 32 bits, transmitted bit 1 first
 | 30–31 | SSM    | 2     | Sign/Status Matrix — validity/sign/test flag (see below). |
 | 32    | Parity | 1     | A single **odd parity** bit over bits 1–31, for basic error detection. |
 
-![ARINC 429 32-bit word layout, showing Label, SDI, Data, SSM, and Parity fields sized proportionally to their bit widths](docs/images/word_layout.svg)
+![ARINC 429 32-bit word layout, showing Label, SDI, Data, SSM, and Parity fields sized proportionally to their bit widths](docs/images/word_layout.png)
 
 ### Data encoding types
 
@@ -103,8 +103,7 @@ engineering_value = raw_data * resolution
 The other common type is **BCD (Binary Coded Decimal)**, typically used
 for things like frequency tuning (e.g. VOR/NAV radio frequencies) where
 each group of 4 bits represents one decimal digit. BCD is **not yet
-implemented** in this project — it's listed under
-[Ideas for extending this project](#ideas-for-extending-this-project).
+implemented** in this project 
 
 ### SSM (Sign/Status Matrix)
 
